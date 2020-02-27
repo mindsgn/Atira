@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{C3B03A63-8B62-4AB4-B70D-57486AE93CC5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CameraFollow.cs" Line="25" Column="1" />
+      <File FileName="Assets/Scripts/SpawnLand.cs" Line="32" Column="14" />
+      <File FileName="Assets/Scripts/Player/PlayerControler.cs" Line="15" Column="37" />
+      <File FileName="Assets/Scripts/Point.cs" Line="22" Column="6" />
+      <File FileName="Assets/Scripts/PlayerDetectionSystem.cs" Line="15" Column="10" />
+      <File FileName="Assets/Scripts/GameManger.cs" Line="164" Column="164" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ATIRA" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Submarine" expanded="True" />
+                <Node name="GameManger.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="68895257-c5eb-4b6c-9988-e9d6c8dd566c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
