@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
   - component: {fileID: 534669906}
+  - component: {fileID: 534669907}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -344,6 +345,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 20, z: 0}
   Speed: 2
+--- !u!114 &534669907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a1af0bc273445bcb70cd9d466b2ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &568573846 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 64105849686246396, guid: 870e9c65f84a44da2b2bf13178c20639,
@@ -982,6 +995,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1139219679870686119, guid: a5bda94b875564e69be7880d1e1d62e0,
+        type: 3}
+      propertyPath: vfxFirework
+      value: 
+      objectReference: {fileID: 191186, guid: 079954accd64b32419ec069129c81273, type: 3}
     - target: {fileID: 8460434008331990612, guid: a5bda94b875564e69be7880d1e1d62e0,
         type: 3}
       propertyPath: m_Name
