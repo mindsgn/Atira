@@ -738,7 +738,6 @@ GameObject:
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
   - component: {fileID: 534669906}
-  - component: {fileID: 534669907}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -819,31 +818,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 534669902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfcd861f880e7400d9a6c663796df3a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Script: {fileID: 11500000, guid: 6fb4de3c7de254d53aa7f350621b9a01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  followOffset: {x: 0, y: 0, z: 0}
-  lookAheadDst: 10
-  smoothTime: 0.1
-  rotSmoothSpeed: 3
-  smoothV: {x: 0, y: 0, z: 0}
---- !u!114 &534669907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534669902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5a1af0bc273445bcb70cd9d466b2ffa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  height: 0
+  distance: 0
+  rotationDamping: 0
+  heightDamping: 0
 --- !u!1 &568573846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,9 +1001,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1216087914}
   - component: {fileID: 1216087915}
+  - component: {fileID: 1216087916}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1051,6 +1034,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1c99a959e64c4e148ae81614ec59c02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 5
+--- !u!114 &1216087916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216087913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f27953ef783cf4312ba27ce624eff09c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1224880096
@@ -1639,6 +1635,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   Land: {fileID: 823659959523826179, guid: 1d6279e905ed747c0898e28bda3f73fd, type: 3}
   Offeset: {x: 0, y: -10, z: 0}
 --- !u!114 &2123561633
@@ -1664,6 +1668,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 925b761600bc745ad8b0433ce82e0db7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
