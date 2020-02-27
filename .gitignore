@@ -1,2 +1,4 @@
 Assets/Marching-Cubes
-
+Temp/
+Library/
+.gitignore
